@@ -6,7 +6,7 @@ function updateCountdown2() {
   const diff = deadline2 - now;
 
   if (diff <= 0) {
-    countdown2El.innerText = "🎉 Abgabezeit!";
+    countdown2El.innerText = "FREIHEIT!";
     return;
   }
 

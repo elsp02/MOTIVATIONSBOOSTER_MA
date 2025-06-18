@@ -1,12 +1,12 @@
 const countdown1El = document.getElementById("countdown1");
-const deadline1 = new Date("2025-06-25T00:00:00");
+const deadline1 = new Date("2025-06-27T00:00:00");
 
 function updateCountdown1() {
   const now = new Date();
   const diff = deadline1 - now;
 
   if (diff <= 0) {
-    countdown1El.innerText = "🎉 Countdown 1 vorbei!";
+    countdown1El.innerText = "NEUES BILD IN ARBEIT!";
     return;
   }
 
