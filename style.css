@@ -68,7 +68,8 @@ border: 2px solid #941aa2;
 
 #countdown1{
     color:#ef5eff;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .countdown2-container {
@@ -128,10 +129,11 @@ border: 2px solid #941aa2;
 /* Hauptseite */
 #full-site {
   background-color: #f5e4b9;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 2rem 1rem;
   box-sizing: border-box;
@@ -140,7 +142,7 @@ border: 2px solid #941aa2;
 /* Bildcontainer bleibt gleich */
 .picture-container {
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
   /*background-color: #473849;*/                                                       
   padding: 1rem;
