@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: #e600ff; /* Knalliges Lila */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.countdown-box {
+  border: 3px solid #e600ff;
+  border-radius: 15px;
+  padding: 2rem;
+  display: inline-block;
+  min-width: 350px;
+  margin-bottom: 0.5rem;
+}
+
+#countdown {
+  font-size: 2rem;
+  color: #00ffff;
+}
+
+.label {
+  font-size: 1rem;
+  color: #800080; /* Dunkellila */
+  align-self: flex-end;
+  margin-right: 2rem;
+}
