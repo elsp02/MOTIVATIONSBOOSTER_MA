@@ -6,7 +6,7 @@
 .font-normal{
     font-family: 'SF Compact Display', sans-serif;
     font-weight: normal;
-    font-size: 16px; /* Skaliert mit der Breite des Viewports */
+    font-size: 12px; /* Skaliert mit der Breite des Viewports */
 }
 
 .font-bold{
@@ -38,7 +38,7 @@
 /* Setzt  minimale Schriftgröße von 16px, wenn  Viewport breiter als 600px */
 @media screen and (min-width: 500px) {
     .font-normal {
-        font-size: 18px;
+        font-size: 14px;
     }
     .font-bold {
         font-size: 37px;
@@ -58,7 +58,7 @@
 /* Setzt maximale Schriftgröße von 36px, wenn Viewport breiter als 1200px */
 @media screen and (min-width: 1000px) {
     .font-normal {
-        font-size: 22px;
+        font-size: 18px;
     }
     .font-bold {
         font-weight: bold;
