@@ -2,17 +2,46 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Countdown bis zur Freiheit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Countdown zur Freiheit</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
 </head>
-<body>
-  <h1>Countdown bis zur Freiheit</h1>
-  <div class="countdown-box">
-    <div id="countdown"></div>
-  </div>
-  <div class="label">Abgabe Masterarbeit</div>
 
-  <script src="script.js"></script>
+<body>
+  <div class="main-container">
+
+    <!-- Überschrift -->
+    <div class="text-container">
+      <h1 class=" font-bold text">MOTIVATIONSBOOSTER</h1>
+    </div>
+
+    <!-- Countdown 1 (besteht aus Label + Wert) -->
+    <div class="countdown1-container">
+      <div class="font-large countdown-label">COUNTDOWN ZUM NÄCHSTEN BILD</div>
+      <div id="countdown1" class="font-mid"></div>
+    </div>
+
+    <!-- C4-Zeile: Abgabetext + Countdown 2 nebeneinander -->
+    <div class="countdown2-container">
+      <div class="font-normal text2-container">GESAMT:<br><span id="abgabe-text"></span></div>
+      <div id="countdown2" class="font-normal"></div>
+    </div>
+
+    <!-- Button-Bereich -->
+    <div class="button-container">
+      <a href="biertrichtendersurferlukas.html" class=" font-small custom-button">Woche 1: Bier</a>
+      <button class="font-small custom-button">Woche 2</button>
+      <button class="font-small custom-button">Woche 3</button>
+      <button class="font-small custom-button">Woche 4</button>
+    </div>
+
+  </div>
+
+  <script src="countdown1.js"></script>
+  <script src="countdown2.js"></script>
 </body>
 </html>
+
+
+

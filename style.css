@@ -1,40 +1,174 @@
 body {
+  font-family: "SF Compact Display", sans-serif;
   background-color: black;
-  color: #e600ff; /* Knalliges Lila */
-  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  flex-direction: column;
-  text-align: center;
-  margin: 0;
-  padding: 0;
 }
 
-h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
+a {
+    text-decoration: none;
+}
+
+html, body {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 700px;
+  color: white;
+  /*background-color: #e600ff;*/
+}
+
+.text-container {
+  margin-bottom: 0rem;
+  /*background-color: #bbb2bc;*/
+}
+
+.text {
+  color: #5c3094;
+  text-align: center;
+}
+
+/* Countdown 1 bestehend aus Label + Box */
+.countdown1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem;
+border: 2px solid #941aa2;
+  border-radius: 10px;
+  background-color: rgba(82, 0, 98, 0.438);
+  width: 70%;
+}
+
+.countdown-label {
+  color: #ef5eff;
+  margin: 0.5rem;
+  text-align: center;
+
 }
 
 .countdown-box {
-  border: 3px solid #e600ff;
-  border-radius: 15px;
-  padding: 2rem;
-  display: inline-block;
-  min-width: 350px;
-  margin-bottom: 0.5rem;
+  color: rgb(203, 42, 42);
+  padding: 1.5rem;
+  /*background-color: #222;*/
+  text-align: center;
+  min-width: 240px;
+  
 }
 
-#countdown {
-  font-size: 2rem;
-  color: #00ffff;
+#countdown1{
+    color:#ef5eff;
+    padding-bottom: 0.5rem;
 }
 
-.label {
-  font-size: 1rem;
-  color: #800080; /* Dunkellila */
-  align-self: flex-end;
-  margin-right: 2rem;
+.countdown2-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  /*background-color: aliceblue;*/
 }
+
+#countdown2{
+    color: rgb(255, 255, 255);
+    text-align: right;
+    /*background-color: aquamarine;*/
+}
+
+.text2-container {
+  color: rgb(255, 255, 255);
+  /*background-color: #cc78d6;*/
+  /*padding: 1rem;*/
+  /*background-color: #222;*/
+  text-align: left;
+}
+
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  align-items: center;
+}
+
+.custom-button {
+  padding: 0.75rem 1.5rem;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 80%;
+  max-width: 300px;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/*---------------------------*/
+/* Hauptseite */
+#full-site {
+  background-color: #f5e4b9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+/* Bildcontainer bleibt gleich */
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #473849;*/                                                       
+  padding: 1rem;
+}
+
+/* Bild */
+.picture {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Button-Container zentriert unter Bild */
+.button-container.single-back {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Kleinere Variante speziell für Back-Button */
+.small-button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
+  border-width: 1.5px;
+  background-color: #c2b492;
+  color: black;
+}
+
