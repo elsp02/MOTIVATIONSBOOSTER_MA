@@ -9,20 +9,29 @@
 </head>
 
 <body>
-    <audio autoplay loop hidden>
-        <source src="audio/elpasodegigante.mp3" type="audio/mpeg">
-        Dein Browser unterstützt kein Audioelement.
-    </audio>
+  <!-- Audio (versteckt) -->
+  <audio id="bg-music" loop>
+    <source src="audio/elpasodegigante.mp3" type="audio/mpeg">
+    Dein Browser unterstützt kein Audioelement.
+  </audio>
+
   <div class="main-container" id="full-site-beige">
+  
+    <div class="middle_container">
+      <div class="picture-container">
+        <img src="images/kiffir_lifestyle@4x.png" class="picture" alt="Surfer" />
+      </div>
 
-    <div class="picture-container">
-      <img src="images/kiffir_lifestyle@4x.png" class="picture" alt="Surfer" />
-    </div>
-
-    <!-- Back-Button unter dem Bild -->
-    <div class="button-container single-back">
-      <a href="index.html" class=" font_small custom-button small-button">BACK</a>
+      <!-- Buttons -->
+      <div class="button-container single-back">
+        <a href="index.html" class="font_small custom-button small-button">BACK</a>
+        <button id="audio-toggle" class="custom-button music-button">MUSIC</button>
+      </div>
     </div>
 
   </div>
+
+  <script src="audio.js"></script>
+
 </body>
+</html>

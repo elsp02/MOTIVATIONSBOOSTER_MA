@@ -118,7 +118,6 @@ border: 2px solid #941aa2;
   cursor: pointer;
   text-align: center;
   transition: background-color 0.3s ease, color 0.3s ease;
-  width: 80%;
   max-width: 300px;
 }
 
@@ -172,7 +171,7 @@ border: 2px solid #941aa2;
   display: flex;
   justify-content:flex-end;
   align-items: center;
-  /*background-color: #473849;*/                                                       
+                                                    
   padding: 1rem;
 }
 
@@ -191,6 +190,8 @@ border: 2px solid #941aa2;
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  flex-direction: row;
+
 }
 
 /* Kleinere Variante speziell für Back-Button */
@@ -200,6 +201,7 @@ border: 2px solid #941aa2;
   border-width: 1.5px;
   background-color: #c2b492;
   color: black;
+  width: 80%;
 }
 
 .small-button:hover {
@@ -207,4 +209,16 @@ border: 2px solid #941aa2;
   color: black;
 }
 
+.music-button{
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
+  border-width: 1.5px;
+  background-color: #c2b492;
+  color: black;
+}
+
+.music-button:hover {
+  background-color:  rgb(244, 245, 238);
+  color: black;
+}
 
