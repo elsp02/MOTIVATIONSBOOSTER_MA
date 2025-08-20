@@ -1,5 +1,5 @@
 const countdown2El = document.getElementById("countdown2");
-const deadline2 = new Date("2025-07-27T23:00:00");
+const deadline2 = new Date("2025-08-21T09:30:00");
 
 function updateCountdown2() {
   const now = new Date();

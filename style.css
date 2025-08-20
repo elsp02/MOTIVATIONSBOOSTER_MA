@@ -179,6 +179,21 @@ border: 2px solid #941aa2;
 
 }
 
+#full-site-beige2{
+  background-color:#ECD8A1;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+
+}
+
+
+
 /* Bildcontainer bleibt gleich */
 .picture-container {
   display: flex;
